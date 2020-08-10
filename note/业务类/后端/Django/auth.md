@@ -9,3 +9,15 @@ from django.contrib.auth.models import User
 exists = User.objects.filter(username=username).exists()
 
 ```
+
+判断用户是否登陆
+```
+if request.user.is_authenticated:
+    return redirect(reverse('dsindex'))
+```
+
+用户注销
+```
+from django.contrib.auth import logout
+
+```

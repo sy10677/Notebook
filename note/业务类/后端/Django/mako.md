@@ -58,3 +58,17 @@ body中嵌入file
 ```
 <%inherit file="base.html"></%inherit>
 ```
+
+嵌入py语句
+```
+<%! from django.shortcuts import reverse %>
+
+```
+
+插入循环语句
+```
+% for user in users:
+<tr>${user.username}</tr>
+% endfor
+
+```
