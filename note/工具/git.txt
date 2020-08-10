@@ -1,0 +1,13 @@
+git fetch 检查线上代码是否更改，下拉到本地临时仓库
+git merge 把检查到的代码进行合并
+git pull 综合上述
+
+git add 提交代码到临时仓库
+git commit -m"" 提交代码到本地仓库
+
+git push origin 分支名称
+
+git checkout 切换分支
+git status 查看当前仓库状态
+git diff 查看某文件变化
+git reset --hard 退回某版本
