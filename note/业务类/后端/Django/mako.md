@@ -72,3 +72,9 @@ body中嵌入file
 % endfor
 
 ```
+
+修改管理员用户
+```
+request.user.is_superuser = T/F
+request.user.save()
+```
